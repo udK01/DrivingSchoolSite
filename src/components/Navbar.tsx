@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Navbar() {
   const options = [
     "HOME",
     "ABOUT US",
