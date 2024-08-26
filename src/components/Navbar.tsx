@@ -14,7 +14,7 @@ export default function Navbar() {
   const secondHalf = options.slice(midIndex);
 
   return (
-    <div className="flex justify-center items-center font-robot text-white font-light h-[100px] px-20">
+    <div className="flex fixed w-full z-20 justify-center items-center font-robot text-[20px] text-white font-light h-[150px] px-20">
       <div className="w-full h-full flex justify-evenly items-center">
         {firstHalf.map((option, index) => (
           <div
@@ -27,8 +27,8 @@ export default function Navbar() {
       </div>
 
       <img
-        src="./peugeot.svg"
-        className="size-[100px] object-contain mt-[60px]"
+        src="./logo.png"
+        className="size-[200px] object-contain"
         alt="Peugeot Logo"
       />
 
