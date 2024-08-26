@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 
 export default function App() {
   return (
-    <section>
+    <section className="h-screen bg-black">
       <Header />
       <Hero />
     </section>
