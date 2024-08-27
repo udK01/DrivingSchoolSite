@@ -19,7 +19,7 @@ export default function Navbar() {
         {firstHalf.map((option, index) => (
           <div
             key={index}
-            className="h-full flex items-center hover:border-b-2 hover:border-red-500 hover:cursor-pointer"
+            className="h-full flex items-center hover:text-red-500 hover:font-semibold transition-all duration-300 hover:cursor-pointer"
           >
             {option}
           </div>
@@ -36,7 +36,7 @@ export default function Navbar() {
         {secondHalf.map((option, index) => (
           <div
             key={index}
-            className="h-full flex items-center hover:border-b-2 hover:border-red-500 hover:cursor-pointer"
+            className="h-full flex items-center hover:text-red-500 hover:font-semibold transition-all duration-300 hover:cursor-pointer"
           >
             {option}
           </div>
