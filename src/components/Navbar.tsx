@@ -29,7 +29,7 @@ export default function Navbar() {
       <img
         src="./logo.png"
         className="size-[200px] object-contain"
-        alt="Peugeot Logo"
+        alt="Logo"
       />
 
       <div className="w-full h-full flex justify-evenly items-center">
