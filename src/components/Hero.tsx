@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="flex font-semibold text-[100px]">
           <p className="text-primary_yellow">DRIVE A CAR</p>&nbsp;WITH US
         </div>
-        <div className="w-[800px] font-black text-[20px]">
+        <div className="w-[800px] font-semibold text-[20px]">
           Master the road with confidence at our driving school, where safety
           meets skill and every lesson drives you closer to a lifetime of safe,
           smart driving.
