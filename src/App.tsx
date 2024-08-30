@@ -7,7 +7,7 @@ export default function App() {
     <section className="h-screen">
       <Header />
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
     </section>
   );
 }
