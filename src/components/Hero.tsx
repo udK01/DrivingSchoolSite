@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
-    <section className="w-full h-screen relative flex justify-center bg-black">
-      <div className="w-[80%] h-full z-20 font-robot text-white space-y-[70px] mt-40">
+    <section className="w-full h-full absolute flex justify-center bg-black">
+      <div className="w-[80%] h-full z-20 font-robot text-white space-y-[70px] mt-32">
         <div className="flex font-semibold text-[100px]">
           <p className="text-primary_yellow">DRIVE A CAR</p>&nbsp;WITH US
         </div>
