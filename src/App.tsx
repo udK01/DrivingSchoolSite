@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Steps from "./components/Steps";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Header />
       <Navbar />
       <Hero />
+      <Steps />
     </section>
   );
 }
