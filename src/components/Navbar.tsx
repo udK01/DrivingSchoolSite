@@ -2,45 +2,23 @@ export default function Navbar() {
   const options = [
     "HOME",
     "ABOUT US",
-    "SERVICES",
-    "SHOP",
-    "INVENTORY",
-    "CONTACT",
+    "PRICING",
+    "BECOME AN INSTRUCTOR",
+    "TESTIMONIALS",
+    "CONTACT US",
   ];
 
-  const midIndex = Math.ceil(options.length / 2);
-
-  const firstHalf = options.slice(0, midIndex);
-  const secondHalf = options.slice(midIndex);
-
   return (
-    <div className="flex fixed w-full z-20 justify-center items-center font-robot text-[20px] text-white font-light h-[150px] px-20">
-      <div className="w-full h-full flex justify-evenly items-center">
-        {firstHalf.map((option, index) => (
-          <div
-            key={index}
-            className="h-full flex items-center hover:text-red-500 hover:font-semibold transition-all duration-300 hover:cursor-pointer"
-          >
+    <div className="w-full flex justify-center bg-primary_yellow">
+      <div className="w-[80%] h-[60px] flex items-center gap-16 mx-[32px]">
+        {options.map((option) => (
+          <p className="font-robot text-[20px] font-black text-black hover:cursor-pointer">
             {option}
-          </div>
+          </p>
         ))}
-      </div>
-
-      <img
-        src="./logo.png"
-        className="size-[200px] object-contain"
-        alt="Logo"
-      />
-
-      <div className="w-full h-full flex justify-evenly items-center">
-        {secondHalf.map((option, index) => (
-          <div
-            key={index}
-            className="h-full flex items-center hover:text-red-500 hover:font-semibold transition-all duration-300 hover:cursor-pointer"
-          >
-            {option}
-          </div>
-        ))}
+        <p className="flex w-[280px] h-full justify-center items-center text-[20px] font-black font-robot text-white bg-primary_red">
+          SCHEDULE LESSONS
+        </p>
       </div>
     </div>
   );

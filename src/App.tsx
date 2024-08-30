@@ -6,8 +6,8 @@ export default function App() {
   return (
     <section className="h-screen">
       <Header />
-      {/* <Navbar />
-      <Hero /> */}
+      <Navbar />
+      {/* <Hero /> */}
     </section>
   );
 }
