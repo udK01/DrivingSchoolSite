@@ -1,14 +1,19 @@
 export default function Steps() {
   return (
     <section className="relative">
+      <div className="flex justify-center">
+        <img
+          src="./GetStarted/Title.png"
+          alt="Get Started Title"
+          className="z-10 absolute mt-10 w-[85%]"
+        />
+      </div>
+
       <img
-        src="./StepsBG.png"
-        alt="Steps Background"
+        src="./GetStarted/Road1.png"
+        alt="Get Started Title"
         className="w-full h-full"
       />
-      <div className="absolute py-2 px-6 bg-red-800 rounded-full text-white font-roboto font-extrabold">
-        Apply Here!
-      </div>
     </section>
   );
 }
