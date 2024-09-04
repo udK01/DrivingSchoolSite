@@ -6,9 +6,9 @@ import Steps from "./components/Steps";
 export default function App() {
   return (
     <section className="h-screen">
-      {/* <Header />
+      <Header />
       <Navbar />
-      <Hero /> */}
+      <Hero />
       <Steps />
     </section>
   );

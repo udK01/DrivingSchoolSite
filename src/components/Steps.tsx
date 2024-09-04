@@ -2,7 +2,7 @@ export default function Steps() {
   return (
     <section className="relative">
       <img
-        src="./GetStarted/FullRoad.png"
+        src="./FullRoad.png"
         alt="Background.png"
         className="w-full h-full"
       />
