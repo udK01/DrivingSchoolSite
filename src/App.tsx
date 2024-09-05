@@ -10,7 +10,7 @@ export default function App() {
       <Header />
       <Navbar />
       <Hero />
-      {/* <Steps /> */}
+      <Steps />
       <Footer />
     </section>
   );

@@ -6,6 +6,7 @@ export default function Steps() {
         alt="Background.png"
         className="w-full h-full"
       />
+
       {/* Provisional License */}
       <a
         href="https://www.gov.uk/apply-first-provisional-driving-licence"
