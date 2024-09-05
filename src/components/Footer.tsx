@@ -2,9 +2,8 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 
+import { FaYoutube, FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
 
 export default function Footer() {
@@ -36,7 +35,7 @@ export default function Footer() {
   ];
 
   return (
-    <div className="w-full bg-[#2D2D2D] flex justify-center">
+    <div className="w-full bg-[#2D2D2D] flex justify-center z-20">
       <div className="w-[85%] h-[124px]  flex items-center">
         <img src="./FullLogo.png" alt="Iwan Williams Logo" />
         <div className="w-[90%] h-full flex justify-around items-center text-white">
@@ -67,9 +66,16 @@ export default function Footer() {
             <div className={subStyle}>01792 870718</div>
           </div>
         </div>
-        <div className="flex text-white gap-[10px]">
-          {socialMedias.map((social) => (
-            <a href={social.href}>{social.icon}</a>
+        <div className="flex text-white gap-[10px] z-40">
+          {socialMedias.map((item, index) => (
+            <a
+              key={index}
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {item.icon}
+            </a>
           ))}
         </div>
       </div>

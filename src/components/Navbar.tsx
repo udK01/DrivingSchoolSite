@@ -11,8 +11,11 @@ export default function Navbar() {
   return (
     <div className="w-full flex justify-center bg-primary_yellow">
       <div className="w-[80%] h-[60px] flex items-center gap-16 mx-[32px]">
-        {options.map((option) => (
-          <p className="h-full flex items-center font-robot text-[20px] font-black text-primary_gray hover:cursor-pointer hover:text-primary_red transition-all duration-300">
+        {options.map((option, index) => (
+          <p
+            key={index}
+            className="h-full flex items-center font-robot text-[20px] font-black text-primary_gray hover:cursor-pointer hover:text-primary_red transition-all duration-300"
+          >
             {option}
           </p>
         ))}
