@@ -24,7 +24,7 @@ export default function Steps() {
       />
       {/* Schedule Lessons */}
       <a
-        href=""
+        href="https://www.iwansom.co.uk/index.php/book-now/"
         className="w-[14%] h-[2%] absolute top-[72.5%] left-[69%] hover:cursor-pointer"
       />
       {/* Book Practical */}
