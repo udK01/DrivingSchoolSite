@@ -36,7 +36,6 @@ export default function Locations() {
 
   return (
     <div>
-      <h1>Areas Covered</h1>
       <div
         id="map"
         style={{ height: "500px", width: "100%" }}
