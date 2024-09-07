@@ -20,10 +20,8 @@ export default function Locations() {
             }
           );
 
-          // Load the GeoJSON file
-          map.data.loadGeoJson("/Swansea.geojson");
+          map.data.loadGeoJson("/AreaCovered.geojson");
 
-          // Optional: Style the polygons or features from the GeoJSON
           map.data.setStyle({
             fillColor: "#FFCD38",
             strokeWeight: 1,
