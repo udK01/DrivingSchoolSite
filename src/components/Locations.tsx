@@ -36,6 +36,9 @@ export default function Locations() {
 
   return (
     <div>
+      <div className="text-center font-robot font-black text-[100px] text-white bg-primary_red">
+        Areas Covered
+      </div>
       <div
         id="map"
         style={{ height: "500px", width: "100%" }}
