@@ -15,7 +15,7 @@ export default function Locations() {
           const map = new window.google.maps.Map(
             document.getElementById("map") as HTMLElement,
             {
-              center: { lat: 51.6198, lng: -3.9396 }, // Swansea as the center
+              center: { lat: 51.6798, lng: -3.9396 }, // Swansea as the center
               zoom: 10,
             }
           );
@@ -36,8 +36,10 @@ export default function Locations() {
 
   return (
     <div>
-      <div className="text-center font-robot font-black text-[100px] text-white bg-primary_red">
-        Areas Covered
+      <div className="w-full flex justify-center my-[60px]">
+        <span className="text-center px-20 font-robot font-black text-[100px] text-white bg-primary_red">
+          Areas Covered
+        </span>
       </div>
       <div
         id="map"
