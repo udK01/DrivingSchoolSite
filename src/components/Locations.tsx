@@ -35,7 +35,7 @@ export default function Locations() {
   }, [API_KEY]);
 
   return (
-    <div className="w-[500px]">
+    <div className="w-[600px]">
       <div className="w-full flex justify-center my-[60px]">
         <span className="text-center px-20 font-robot font-black text-[100px] text-white bg-primary_red">
           Areas Covered
