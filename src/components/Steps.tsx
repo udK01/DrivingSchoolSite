@@ -1,6 +1,6 @@
 export default function Steps() {
   return (
-    <section className="relative">
+    <section className="relative bg-primary_red">
       <img
         src="./FullRoad.png"
         alt="Background.png"

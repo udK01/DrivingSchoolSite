@@ -35,11 +35,11 @@ export default function Locations() {
   }, [API_KEY]);
 
   return (
-    <div className="w-[600px]">
-      <div className="w-full flex justify-center my-[60px]">
-        <span className="text-center px-20 font-robot font-black text-[100px] text-white bg-primary_red">
+    <div>
+      <div className="w-full flex justify-center">
+        <div className="w-full text-center px-20 font-robot font-black text-[100px] text-white bg-primary_red">
           Areas Covered
-        </span>
+        </div>
       </div>
       <div
         id="map"
