@@ -36,14 +36,14 @@ export default function Locations() {
 
   return (
     <div>
-      <div className="w-full flex justify-center">
-        <div className="w-full text-center px-20 font-robot font-black text-[100px] text-white bg-primary_red">
+      <div className="w-full flex justify-center items-center bg-[#1E1E1E] blur-0 absolute z-10 glass">
+        <div className="w-full text-center px-20 font-robot font-black text-[100px] text-white">
           Areas Covered
         </div>
       </div>
       <div
         id="map"
-        style={{ height: "500px", width: "100%" }}
+        style={{ height: "800px", width: "100%" }}
         className="mx-auto"
       />
     </div>
