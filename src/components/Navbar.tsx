@@ -9,7 +9,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="w-full flex justify-center bg-primary_yellow">
+    <div className="w-full flex justify-center bg-primary_yellow sticky top-0 z-50">
       <div className="w-[80%] h-[60px] flex items-center gap-16 mx-[32px]">
         {options.map((option, index) => (
           <p
