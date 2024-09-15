@@ -16,7 +16,7 @@ export default function Hero() {
       </div>
 
       <img
-        src="./HeroImg.png"
+        src="./HeroImg.webp"
         alt="Hero-Img"
         className="w-full h-full object-cover absolute inset-0 z-0"
       />
