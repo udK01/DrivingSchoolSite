@@ -1,3 +1,3 @@
 export default function Instructor() {
-  return <section></section>;
+  return <section>Become an instructor...</section>;
 }
