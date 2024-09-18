@@ -10,7 +10,7 @@ export default {
       colors: {
         primary_yellow: "#FFCD38",
         primary_red: "#C22723",
-        primary_gray: "2D2D2D",
+        primary_gray: "#2D2D2D",
       },
     },
   },
