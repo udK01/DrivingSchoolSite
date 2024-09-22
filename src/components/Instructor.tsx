@@ -51,6 +51,10 @@ export default function Instructor() {
           />
         </div>
       </div>
+
+      <div className="text-center font-roboto text-[60px] my-20">
+        What exactly do I need to become a Driving Instructor?
+      </div>
     </section>
   );
 }
