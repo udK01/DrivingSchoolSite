@@ -55,6 +55,19 @@ export default function Instructor() {
       <div className="text-center font-roboto text-[60px] my-20">
         What exactly do I need to become a Driving Instructor?
       </div>
+
+      <div className="flex gap-10">
+        <div className="flex flex-col flex-1 flex-shrink-0 items-center">
+          <div>Part 1</div>
+          <div>100 Multiple Choice Questions.</div>
+          <div>
+            85% pass mark (minimum of 20 out of 25 in each of the 4 question
+            bands).
+          </div>
+          <div>Hazard Perception Pass Mark 57 out of 75.</div>
+          <div>Cost of test £90.</div>
+        </div>
+      </div>
     </section>
   );
 }
