@@ -24,7 +24,7 @@ export default function Instructor() {
   // <li>£1550</li>
 
   return (
-    <section>
+    <section className="min-h-screen">
       <div className="text-roboto text-[60px] text-center">
         Become an Instructor!
       </div>
