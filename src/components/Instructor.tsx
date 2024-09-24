@@ -67,6 +67,19 @@ export default function Instructor() {
           <div>Hazard Perception Pass Mark 57 out of 75.</div>
           <div>Cost of test £90.</div>
         </div>
+        <div className="flex flex-col flex-1 flex-shrink-0 items-center">
+          <div>Part 2</div>
+          <div>Drive for 1 hour completing the following exercises:</div>
+          <ol>
+            <li> - 4 Manoeuvres</li>
+            <li> - Controlled Stop</li>
+            <li> - Independent Driving</li>
+            <li> - 5 Vehicle Check Questions</li>
+          </ol>
+          <div>Mistakes Allowed:</div>
+          <div>6 Driving - 0 Serious - 0 Dangerous</div>
+          <div>Cost of test £111.</div>
+        </div>
       </div>
     </section>
   );
