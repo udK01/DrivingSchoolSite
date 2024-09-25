@@ -80,6 +80,13 @@ export default function Instructor() {
           <div>6 Driving - 0 Serious - 0 Dangerous</div>
           <div>Cost of test £111.</div>
         </div>
+        <div className="flex flex-col flex-1 flex-shrink-0 items-center">
+          <div>Part 3</div>
+          <div>Instructional Ability</div>
+          <div>
+            Examiner Sits In The Back For 45 Minutes Watching You Teach.
+          </div>
+        </div>
       </div>
     </section>
   );
