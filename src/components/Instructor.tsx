@@ -29,6 +29,7 @@ export default function Instructor() {
         Become an Instructor!
       </div>
 
+      {/* Options */}
       <div className="flex">
         <div className="flex flex-col flex-1 flex-shrink-0 items-center">
           <OptionComponent
@@ -56,6 +57,7 @@ export default function Instructor() {
         What exactly do I need to become a Driving Instructor?
       </div>
 
+      {/* 3 Part Segment */}
       <div className="flex gap-10">
         <div className="flex flex-col flex-1 flex-shrink-0 items-center">
           <div>Part 1</div>
@@ -87,6 +89,10 @@ export default function Instructor() {
             Examiner Sits In The Back For 45 Minutes Watching You Teach.
           </div>
         </div>
+      </div>
+
+      <div className="text-center font-roboto text-[60px] my-20">
+        How Much Will I Really Earn?
       </div>
     </section>
   );
