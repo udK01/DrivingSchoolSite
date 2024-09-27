@@ -91,6 +91,7 @@ export default function Instructor() {
         </div>
       </div>
 
+      {/* Payment Section */}
       <div className="text-center font-roboto text-[60px] my-20">
         How Much Will I Really Earn?
       </div>
