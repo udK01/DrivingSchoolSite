@@ -95,6 +95,8 @@ export default function Instructor() {
       <div className="text-center font-roboto text-[60px] my-20">
         How Much Will I Really Earn?
       </div>
+
+      <div>30 hours at £32.50 = £975</div>
     </section>
   );
 }
