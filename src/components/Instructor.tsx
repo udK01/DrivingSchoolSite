@@ -97,6 +97,9 @@ export default function Instructor() {
       </div>
 
       <div>30 hours at £32.50 = £975</div>
+      <div>
+        Extras: Fuel - £80, Franchise Fee - £130. You must suply your own car!
+      </div>
     </section>
   );
 }
