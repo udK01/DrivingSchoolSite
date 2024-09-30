@@ -8,6 +8,7 @@ import Steps from "./components/Steps";
 import Locations from "./components/Locations";
 
 import Pricing from "./components/Pricing";
+import AboutUs from "./components/AboutUs";
 import Instructor from "./components/Instructor";
 
 import Footer from "./components/Footer";
@@ -28,7 +29,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/about-us" element={<div>About Us Page</div>} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/become-an-instructor" element={<Instructor />} />
         <Route path="/testimonials" element={<div>Testimonials Page</div>} />
