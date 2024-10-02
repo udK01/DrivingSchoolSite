@@ -3,7 +3,7 @@ export default function AboutUs() {
     <section>
       <div>
         At Iwan Williams, our goal is to introduce new, yet safe drivers to our
-        roads.
+        roads. We are active in Neath Port Talbot, Swansea and Llanelli.
       </div>
     </section>
   );
