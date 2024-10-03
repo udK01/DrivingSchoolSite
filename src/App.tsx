@@ -10,6 +10,7 @@ import Locations from "./components/Locations";
 import Pricing from "./components/Pricing";
 import AboutUs from "./components/AboutUs";
 import Instructor from "./components/Instructor";
+import Testimonials from "./components/Testimonials";
 
 import Footer from "./components/Footer";
 
@@ -32,7 +33,7 @@ export default function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/become-an-instructor" element={<Instructor />} />
-        <Route path="/testimonials" element={<div>Testimonials Page</div>} />
+        <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/contact-us" element={<div>Contact Us Page</div>} />
       </Routes>
       <Footer />
