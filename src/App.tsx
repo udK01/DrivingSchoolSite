@@ -11,6 +11,7 @@ import Pricing from "./components/Pricing";
 import AboutUs from "./components/AboutUs";
 import Instructor from "./components/Instructor";
 import Testimonials from "./components/Testimonials";
+import ContactUs from "./components/ContactUs";
 
 import Footer from "./components/Footer";
 
@@ -34,7 +35,7 @@ export default function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/become-an-instructor" element={<Instructor />} />
         <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/contact-us" element={<div>Contact Us Page</div>} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />
     </Router>
