@@ -27,6 +27,10 @@ export default function Pricing() {
         <PriceComponent text={"10 Hour Automatic"} price={"£370.00"} />
         <PriceComponent text={"30 Hour Automatic"} price={"£999.99"} />
       </div>
+      <div>
+        Payment is possible through Cash or Bank Transfer depending on the
+        Instructor.
+      </div>
     </section>
   );
 }
