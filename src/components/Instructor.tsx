@@ -100,7 +100,8 @@ export default function Instructor() {
       <div>
         Extras: Fuel - £80, Franchise Fee - £130. You must supply your own car!
         We provide learners, you do the scheduling. Making sure you leave enough
-        time between learners is crucial!
+        time between learners is crucial! We provide male/female smoking-free
+        instructors.
       </div>
     </section>
   );
