@@ -1,6 +1,7 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const mainContainer = "flex flex-col";
@@ -11,7 +12,9 @@ export default function Header() {
   return (
     <div className="w-full bg-[#2D2D2D] flex justify-center">
       <div className="w-[85%] h-[124px]  flex items-center">
-        <img src="./FullLogo.png" alt="Iwan Williams Logo" />
+        <Link to={"/home"}>
+          <img src="./FullLogo.png" alt="Iwan Williams Logo" />
+        </Link>
         <div className="w-[90%] h-full flex justify-around items-center text-white">
           {/* Location */}
           <div className={mainContainer}>
