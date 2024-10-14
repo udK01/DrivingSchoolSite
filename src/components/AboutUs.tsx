@@ -6,6 +6,7 @@ export default function AboutUs() {
         roads. We are active in Neath Port Talbot, Swansea and Llanelli. We
         provide male/female smoking-free instructors.
       </div>
+      <img src="./IwanReward.jpeg" />
     </section>
   );
 }
