@@ -7,14 +7,16 @@ export default function Instructor() {
   const OptionComponent = ({ optNum, benefits }: OptionsProps) => {
     return (
       <>
-        <div className="py-2 px-6 bg-primary_red text-[32px] rounded-3xl text-white">
-          Option {optNum}
+        <div className="bg-primary_gray text-white">
+          <div className="py-2 px-6 bg-primary_red text-[32px]">
+            Option {optNum}
+          </div>
+          <ul>
+            {benefits.map((benefit) => (
+              <li>{benefit}</li>
+            ))}
+          </ul>
         </div>
-        <ul>
-          {benefits.map((benefit) => (
-            <li>{benefit}</li>
-          ))}
-        </ul>
       </>
     );
   };
