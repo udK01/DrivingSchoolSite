@@ -21,10 +21,6 @@ export default function Instructor() {
     );
   };
 
-  // <li>40 Hours In-Car Training</li>
-  // <li>3 Months Online Training Platform Access</li>
-  // <li>£1550</li>
-
   return (
     <section className="min-h-screen">
       <div className="text-roboto text-[60px] text-center">
